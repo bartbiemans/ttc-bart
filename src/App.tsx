@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Route, Router, Switch} from 'react-router';
+import {createBrowserHistory} from 'history';
+import {Header} from './components/header/Header';
+import {Home} from "./components/home/Home";
+import {Board} from "./components/board/Board";
+import {History} from "./components/history/History";
+
+
+const browserHistory = createBrowserHistory();
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Router history={browserHistory}>
+                {renderRouting()}
+            </Router>
+        </div>
+    );
+}
+
+const renderRouting = () => {
+    return (
+        <>
+            <Header/>
+            <div style={{paddingTop: '7vh'}}>
+                <Switch>
+                    <Route exact path={'/'} component={Home}/>
+                    <Route exact path={'/home'} component={Home}/>
+                    <Route exact path={'/board'} component={Board}/>
+                    <Route exact path={'/historiek'} component={History}/>
+                </Switch>
+            </div>
+        </>
+    )
 }
 
 export default App;
