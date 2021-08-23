@@ -1,8 +1,11 @@
 import {Col, Row} from "react-bootstrap";
+import Image from "react-bootstrap/Image";
+import React from "react";
 
 export const History = () => {
     return (
         <>
+            <Image src={'../../../historiek.jpg'} fluid style={{width: '100%'}}/>
             <h1 className={'text-center'}>Historiek</h1>
             <Row>
                 <Col className={'text-center'}>

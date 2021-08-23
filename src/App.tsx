@@ -6,6 +6,7 @@ import {Header} from './components/header/Header';
 import {Home} from "./components/home/Home";
 import {Board} from "./components/board/Board";
 import {History} from "./components/history/History";
+import {ClubTournament} from "./components/clubTournament/ClubTournaments";
 
 
 const browserHistory = createBrowserHistory();
@@ -30,6 +31,7 @@ const renderRouting = () => {
                     <Route exact path={'/home'} component={Home}/>
                     <Route exact path={'/board'} component={Board}/>
                     <Route exact path={'/historiek'} component={History}/>
+                    <Route exact path={'/club-tournament'} component={ClubTournament}/>
                 </Switch>
             </div>
         </>

@@ -13,6 +13,7 @@ export const Header = () => {
                         <Nav.Link href='/board'>Bestuur</Nav.Link>
                         <NavDropdown title="Info" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/historiek">Historiek</NavDropdown.Item>
+                            <NavDropdown.Item href="/club-tournament">clubkampioenschap</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href='/calendar'>Kalender</Nav.Link>
                         <Nav.Link href='/documents'>Documenten</Nav.Link>
