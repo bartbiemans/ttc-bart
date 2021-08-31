@@ -17,8 +17,8 @@ export const TournamentTable = (props:Props) => {
             <Table striped bordered hover>
                 <thead>
                 <tr>
-                    <th>Reeksen : {props.date}</th>
-                    <th>Winnaar</th>
+                    <th style={{width:'50%'}}>Reeksen : {props.date}</th>
+                    <th style={{width:'50%'}}>Winnaar</th>
                 </tr>
                 </thead>
                 <tbody>

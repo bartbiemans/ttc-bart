@@ -7,6 +7,9 @@ import {Home} from "./components/home/Home";
 import {Board} from "./components/board/Board";
 import {History} from "./components/history/History";
 import {ClubTournament} from "./components/clubTournament/ClubTournaments";
+import {NewMembers} from "./components/newmembers/NewMembers";
+import {Training} from "./components/training/Training";
+import {Teams} from "./components/teams/Teams";
 
 
 const browserHistory = createBrowserHistory();
@@ -32,6 +35,9 @@ const renderRouting = () => {
                     <Route exact path={'/board'} component={Board}/>
                     <Route exact path={'/historiek'} component={History}/>
                     <Route exact path={'/club-tournament'} component={ClubTournament}/>
+                    <Route exact path={'/newmembers'} component={NewMembers}/>
+                    <Route exact path={'/training'} component={Training}/>
+                    <Route exact path={'/ploegen'} component={Teams}/>
                 </Switch>
             </div>
         </>
