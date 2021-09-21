@@ -7,12 +7,12 @@ export const Board = () => {
         <>
             <Image src={'../../../bestuur.jpg'} fluid style={{width: '100%'}}/>
             <div className={'text-center'}>
-                <h1>Het bestuur</h1>
+                <h1 className={'secondary-text'}>Het bestuur</h1>
                 <span>Bij vragen over de club kan u steeds terecht bij een van onderstaande bestuursleden. <br/> De mailadressen zijn niet vervolledigd om spam te vermijden.</span>
             </div>
             <Row>
-                <Col md={4}/>
-                <Col md={6}>
+                <Col xs={4}/>
+                <Col xs={6}>
                     <div className={'d-flex justify-content-center board-table'}>
                         <Table striped bordered hover>
                             <thead>
@@ -68,7 +68,7 @@ export const Board = () => {
 
                     </div>
                 </Col>
-                <Col md={2}/>
+                <Col xs={2}/>
             </Row>
 
         </>

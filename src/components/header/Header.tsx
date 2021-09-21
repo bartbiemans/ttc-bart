@@ -4,7 +4,7 @@ import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 export const Header = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" fixed={"top"} bg="light">
+            <Navbar collapseOnSelect expand="lg" fixed={"top"} bg="dark" variant={"dark"}>
                 <Navbar.Brand href={'/'}>TTC-bart merksem</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className={"justify-content-end"}>

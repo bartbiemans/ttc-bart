@@ -6,7 +6,7 @@ export const Training = () => {
     return (
         <>
             <Image src={'../../../training.jpg'} fluid style={{width: '100%'}}/>
-            <h3 className={'text-center'}>Training</h3>
+            <h3 className={'text-center secondary-text'}>Training</h3>
             <Row className={'d-flex justify-content-center pt-2 ml-2 mr-2'}>
                 <Col lg={8}>
                     <h3 className={'pt-2'}><b>Praktische regeling</b></h3>

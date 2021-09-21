@@ -6,15 +6,15 @@ export const History = () => {
     return (
         <>
             <Image src={'../../../historiek.jpg'} fluid style={{width: '100%'}}/>
-            <h1 className={'text-center'}>Historiek</h1>
+            <h1 className={'text-center secondary-text'}>Historiek</h1>
             <Row>
                 <Col className={'text-center'}>
                     <div className={'history-title'}>Een levende en enthousiaste club!</div>
                 </Col>
             </Row>
             <Row>
-                <Col className={'pl-5'} md={6}>
-                        <div className={'mb-5 text-center history-title'}>
+                <Col className={'text-center'} md={6}>
+                        <div className={'mb-5 history-title'}>
                             Vroeger
                         </div>
                         <div>
@@ -22,12 +22,13 @@ export const History = () => {
 Gedurende de volgende jaren kenden we enkele hoogtes en laagtes met een schommeend ledenaantal (20 à 60). In Merksem speelden we op verschillende locaties, met als belangrijkste de Sporthal Rode Loop (vanaf 1975) en het Fort van Merksem (vanaf 2000). In 2007 beslisten we samen met Merksem TTV, sinds decennia onze zusterclub binnen dezelfde lokalen, om onze werking samen te voegen. Aldus ontstond in 2007 de fusieclub TTC Bart Merksem.
                         </div>
                 </Col>
-                <Col className={'pr-5'} md={6}>
-                     <div className={'mb-5 text-center history-title'}>
+                <Col className={'text-center'} md={6}>
+                     <div className={'mb-5 history-title'}>
                             Nu
                         </div>
                     <div>
                         Wij spelen nog altijd in het Fort van Merksem en zijn momenteel een stabiele club met ongeveer 75 leden, jeugdwerking en recreanten.
+                        Uiteraard is er nog steeds plek over voor gemotiveerde sporters, dus twijfel niet en kom zeker eens af!
                     </div>
                 </Col>
             </Row>

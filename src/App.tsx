@@ -10,6 +10,8 @@ import {ClubTournament} from "./components/clubTournament/ClubTournaments";
 import {NewMembers} from "./components/newmembers/NewMembers";
 import {Training} from "./components/training/Training";
 import {Teams} from "./components/teams/Teams";
+import {Contact} from "./components/contact/Contact";
+import {Calender} from "./components/calender/Calender";
 
 
 const browserHistory = createBrowserHistory();
@@ -38,6 +40,8 @@ const renderRouting = () => {
                     <Route exact path={'/newmembers'} component={NewMembers}/>
                     <Route exact path={'/training'} component={Training}/>
                     <Route exact path={'/ploegen'} component={Teams}/>
+                    <Route exact path={'/contact'} component={Contact}/>
+                    <Route exact path={'/calendar'} component={Calender}/>
                 </Switch>
             </div>
         </>
