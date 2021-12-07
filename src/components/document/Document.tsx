@@ -3,13 +3,6 @@ import React from "react";
 
 export const Document = () => {
 
-    const downloadAansluitingsFormulier = () => {
-        const element = document.createElement("a");
-        element.href = URL.createObjectURL('aansluitingsformulier.pdf');
-        element.download = 'aansluitingsformulier.pdf';
-        document.body.appendChild(element);
-        element.click();
-    }
     return (
         <>
             <Image src={'../../../nieuweLeden.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
