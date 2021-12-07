@@ -7,7 +7,7 @@ export const Home = () => {
     return (
         <div>
             <div style={{position: 'relative', textAlign: 'center'}}>
-                <Image src={'../../../../legeTafel.jpg'} fluid style={{width: '100%'}}/>
+                <Image src={'../../../../legeTafel.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
                 <h1 className={' d-none d-lg-block secondary-text'}
                     style={{position: 'absolute', top: '15%', left: '50%', transform: 'translate(-50%, -50%)'}}>TTC Bart Merksem</h1>
             </div>

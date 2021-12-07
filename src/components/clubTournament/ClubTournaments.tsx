@@ -14,7 +14,7 @@ import Image from "react-bootstrap/Image";
 export const ClubTournament = () => {
     return (
         <>
-            <Image src={'../../../clubkampioenschap.jpg'} fluid style={{width: '100%'}}/>
+            <Image src={'../../../clubkampioenschap.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
             <h3 className={'text-center secondary-text'}>Clubkampioenschap</h3>
             <div style={{width:"50%", margin:'auto'}} className={'text-center'}>Elk jaar, uitgezonderd 2020 en 2021 door het corona-virus, spelen we een clubkampioenschap.
                 Dit is een leuke manier om iedereen nog eens te zien en samen te sporten en plezier te maken.

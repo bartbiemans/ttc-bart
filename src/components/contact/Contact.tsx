@@ -5,7 +5,7 @@ import {Col, Row} from "react-bootstrap";
 export const Contact = () => {
     return (
         <>
-            <Image src={'../../../bestuur.jpg'} fluid style={{width: '100%'}}/>
+            <Image src={'../../../bestuur.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
             <div className={'text-center'}>
                 <h1 className={'secondary-text'}>Contact</h1>
                        <Row>

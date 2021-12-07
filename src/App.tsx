@@ -12,6 +12,7 @@ import {Training} from "./components/training/Training";
 import {Teams} from "./components/teams/Teams";
 import {Contact} from "./components/contact/Contact";
 import {Calender} from "./components/calender/Calender";
+import {Document} from "./components/document/Document";
 
 
 const browserHistory = createBrowserHistory();
@@ -30,7 +31,6 @@ const renderRouting = () => {
     return (
         <>
             <Header/>
-            <div style={{paddingTop: '7vh'}}>
                 <Switch>
                     <Route exact path={'/'} component={Home}/>
                     <Route exact path={'/home'} component={Home}/>
@@ -42,8 +42,8 @@ const renderRouting = () => {
                     <Route exact path={'/ploegen'} component={Teams}/>
                     <Route exact path={'/contact'} component={Contact}/>
                     <Route exact path={'/calendar'} component={Calender}/>
+                    <Route exact path={'/documents'} component={Document}/>
                 </Switch>
-            </div>
         </>
     )
 }

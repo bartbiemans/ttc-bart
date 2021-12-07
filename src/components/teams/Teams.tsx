@@ -5,7 +5,7 @@ import React from "react";
 export const Teams = () => {
     return (
         <>
-            <Image src={'../../../nieuweLeden.jpg'} fluid style={{width: '100%'}}/>
+            <Image src={'../../../nieuweLeden.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
             <h3 className={'text-center secondary-text'}>Ploegen</h3>
             <Row className={'d-flex justify-content-center pt-2 ml-2 mr-2'}>
                 <Col lg={8} className={'text-center d-flex flex-column'}>
