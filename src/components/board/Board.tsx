@@ -66,6 +66,12 @@ export const Board = () => {
                                 <td/>
                                 <td/>
                             </tr>
+                            <tr>
+                                <td>Karel Heirman</td>
+                                <td>Raadslid</td>
+                                <td/>
+                                <td/>
+                            </tr>
                             </tbody>
                         </Table>
 
