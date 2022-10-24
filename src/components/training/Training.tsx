@@ -15,8 +15,7 @@ export const Training = () => {
                         <li>De trainingen werken op inschrijving: als je je engageert, verwachten we dat je komt,
                             uitgezonderd heirkracht of ziekte.
                         </li>
-                        <li>Trainingen gaan door op woensdag of vrijdag naargelang je groep, van 19u30 tot 21u. Er is
-                            geen training tijdens de schoolvakanties.
+                        <li>Trainingen gaan door op woensdag (19u-20.30u) of donderdag (19u-20.30u) naargelang je groep.
                         </li>
                         <li>
                             We voorzien twee “trainingsblokken”, van augustus tot half december, en van januari tot
