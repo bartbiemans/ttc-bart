@@ -12,7 +12,7 @@ export const Contact = () => {
                            <Col xs={6}>
                                <h3>Adres</h3>
                                <div>Recreatiedomein Fort van merksem </div>
-                               <div>Fortsesteenweg 120 2170 merksem</div>
+                               <div>Fortsteenweg  120 2170 merksem</div>
                                <div>Auto’s kunnen worden geparkeerd buiten het fort op de daarvoor voorziene parking. Ingang lokaal aan kant van petanquevelden. Lokaal bevindt zich op eerste verdieping (geen lift).</div>
                                <Image src={'../../../plattegrond.png'}/>
                            </Col>

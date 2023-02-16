@@ -37,13 +37,13 @@ export const Board = () => {
                                 <td/>
                             </tr>
                             <tr>
-                                <td>Filip Heijnemans</td>
+                                <td>Lawrens Halens</td>
                                 <td>Penningmeester</td>
-                                <td>filip.heijnemans@... (gmail.com)</td>
+                                <td>lawrens.hales@... (hotmail.com)</td>
                                 <td/>
                             </tr>
                             <tr>
-                                <td>Lawrens Halens</td>
+                                <td>Jonas Cornelis</td>
                                 <td>Toogverantwoordelijke</td>
                                 <td>lawrens.hales@... (hotmail.com)</td>
                                 <td/>
@@ -52,6 +52,12 @@ export const Board = () => {
                                 <td>Thomas Jenné</td>
                                 <td>Jeugdverantwoordelijke</td>
                                 <td>thomas.jenne@... (hotmail.com)</td>
+                                <td/>
+                            </tr>
+                            <tr>
+                                <td>Filip Heijnemans</td>
+                                <td>Feestverantwoordelijke</td>
+                                <td>filip.heijnemans@... (gmail.com)</td>
                                 <td/>
                             </tr>
                             <tr>

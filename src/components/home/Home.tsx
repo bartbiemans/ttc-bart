@@ -19,7 +19,7 @@ export const Home = () => {
             </Row>
             <Row className={'justify-content-center'}>
                 <Col lg={8}>
-                    <p className={'text-center pt-2'}>Welkom op onze vernieuwe website. Hier kan u alle info
+                    <p className={'text-center pt-2'}>Welkom op onze vernieuwde website. Hier kan u alle info
                         terugvinden over onze club</p>
                 </Col>
             </Row>
