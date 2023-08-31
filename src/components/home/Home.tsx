@@ -25,6 +25,9 @@ export const Home = () => {
             </Row>
             <Row>
                 <Col lg={7} sm={10}>
+                    <Announcement title={'Erkende sportclub!'}
+                                  body={'Nieuwtje: vanaf juli 2023 is TTC Bart Merksem erkend als sportclub door de Stad Antwerpen! Dat wil zeggen dat we hun veiligheidsscan hebben doorlopen en hun waardeverklaringen hebben ondertekend. Op onze toog kan je nu het “erkende sportclub”-bordje zien staan.'}
+                                  date={new Date(2023, 8, 31)}/>
                     <Announcement title={'Vernieuwde site!'}
                                   body={'Welkom op onze nieuwe site. Mocht u nog problemen hebben mag u altijd onze webmaster contacteren ( biemansbart@... ). Vervang de ... door gmail.com ( dit om automatische spam te vermijden )'}
                                   date={new Date(2021, 7, 21)}/>

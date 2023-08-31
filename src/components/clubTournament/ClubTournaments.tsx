@@ -1,4 +1,5 @@
 import React from 'react';
+import content2023 from "./clubTournament2023.json"
 import content2022 from "./clubTournament2022.json"
 import content2019 from "./clubTournament2019.json"
 import content2018 from "./clubTournament2018.json"
@@ -23,6 +24,7 @@ export const ClubTournament = () => {
 
 </div>
             <div className={'d-flex align-items-center flex-column'}>
+                <TournamentTable date={'2023'} tableElements={content2023}/>
                 <TournamentTable date={'2022'} tableElements={content2022}/>
                 <TournamentTable date={'2019'} tableElements={content2019}/>
                 <TournamentTable date={'2018'} tableElements={content2018}/>

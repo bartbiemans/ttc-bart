@@ -17,6 +17,7 @@ export const Header = () => {
                             <NavDropdown.Item href="/newmembers">Nieuwe leden</NavDropdown.Item>
                             <NavDropdown.Item href="/training">Training</NavDropdown.Item>
                             <NavDropdown.Item href="/ploegen">Ploegen</NavDropdown.Item>
+                            <NavDropdown.Item href="/jeugd">Jeugd</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href='/calendar'>Kalender</Nav.Link>
                         <Nav.Link href='/documents'>Documenten</Nav.Link>

@@ -73,9 +73,9 @@ export const Board = () => {
                                 <td/>
                             </tr>
                             <tr>
-                                <td>Karel Heirman</td>
+                                <td>Jonas Cornelis</td>
                                 <td>Raadslid</td>
-                                <td/>
+                                <td>Cornelisjonas@hotmail.com</td>
                                 <td/>
                             </tr>
                             </tbody>

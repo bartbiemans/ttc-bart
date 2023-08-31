@@ -15,7 +15,8 @@ export const Training = () => {
                         <li>De trainingen werken op inschrijving: als je je engageert, verwachten we dat je komt,
                             uitgezonderd heirkracht of ziekte.
                         </li>
-                        <li>Trainingen gaan door op woensdag (19u-20.30u) of donderdag (19u-20.30u) naargelang je groep.
+                        <li>Trainingen gaan voor senioren door op woensdag in twee groepen, van 19u tot 20u30 en van 20u45 tot 22u15. Jeugdleden trainen op vrijdag van 18u30 tot 20u.
+                            De senioren krijgen training van Jacques Van Mirlo. De jeugd krijgt training van Thomas Jenné. Beide trainers zijn gediplomeerde initiators tafeltennis.
                         </li>
                         <li>
                             We voorzien twee “trainingsblokken”, van augustus tot half december, en van januari tot

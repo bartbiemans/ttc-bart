@@ -13,6 +13,7 @@ import {Teams} from "./components/teams/Teams";
 import {Contact} from "./components/contact/Contact";
 import {Calender} from "./components/calender/Calender";
 import {Document} from "./components/document/Document";
+import {Youth} from "./components/youth/Youth";
 
 
 const browserHistory = createBrowserHistory();
@@ -43,6 +44,7 @@ const renderRouting = () => {
                     <Route exact path={'/contact'} component={Contact}/>
                     <Route exact path={'/calendar'} component={Calender}/>
                     <Route exact path={'/documents'} component={Document}/>
+                    <Route exact path={'/jeugd'} component={Youth}/>
                 </Switch>
         </>
     )
