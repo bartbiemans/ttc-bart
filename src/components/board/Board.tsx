@@ -5,7 +5,6 @@ import Image from "react-bootstrap/Image";
 export const Board = () => {
     return (
         <>
-            <Image src={'../../../bestuur.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
             <div className={'text-center'}>
                 <h1 className={'secondary-text'}>Het bestuur</h1>
                 <span>Bij vragen over de club kan u steeds terecht bij een van onderstaande bestuursleden. <br/> De mailadressen zijn niet vervolledigd om spam te vermijden.</span>

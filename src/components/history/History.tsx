@@ -5,7 +5,6 @@ import React from "react";
 export const History = () => {
     return (
         <>
-            <Image src={'../../../historiek.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
             <h1 className={'text-center secondary-text'}>Historiek</h1>
             <Row>
                 <Col className={'text-center'}>

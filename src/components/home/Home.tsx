@@ -6,7 +6,7 @@ import {Announcement} from "../announcement/Announcement";
 export const Home = () => {
     return (
         <div>
-            <Row className={'mt-5'}>
+            <Row>
                 <Col className={'justify-content-center'}>
                     <h3 className={'text-center pt-2 secondary-text'}><b>De tofste club uit merksem en omstreken!</b>
                     </h3>

@@ -31,7 +31,8 @@ function App() {
 const renderRouting = () => {
     return (
         <>
-            <Header/>
+            <div className={'mb-5'}><Header/></div>
+            <div className={'pt-5'}>
                 <Switch>
                     <Route exact path={'/'} component={Home}/>
                     <Route exact path={'/home'} component={Home}/>
@@ -46,6 +47,7 @@ const renderRouting = () => {
                     <Route exact path={'/documents'} component={Document}/>
                     <Route exact path={'/jeugd'} component={Youth}/>
                 </Switch>
+            </div>
         </>
     )
 }

@@ -5,7 +5,6 @@ import React from "react";
 export const Training = () => {
     return (
         <>
-            <Image src={'../../../training.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
             <h3 className={'text-center secondary-text'}>Training</h3>
             <Row className={'d-flex justify-content-center pt-2 ml-2 mr-2'}>
                 <Col lg={8}>
