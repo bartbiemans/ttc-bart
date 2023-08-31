@@ -6,12 +6,7 @@ import {Announcement} from "../announcement/Announcement";
 export const Home = () => {
     return (
         <div>
-            <div style={{position: 'relative', textAlign: 'center'}}>
-                <Image src={'../../../../legeTafel.jpg'} fluid style={{width: '100%', paddingTop:'5vh'}}/>
-                <h1 className={' d-none d-lg-block secondary-text'}
-                    style={{position: 'absolute', top: '15%', left: '50%', transform: 'translate(-50%, -50%)'}}>TTC Bart Merksem</h1>
-            </div>
-            <Row>
+            <Row className={'mt-5'}>
                 <Col className={'justify-content-center'}>
                     <h3 className={'text-center pt-2 secondary-text'}><b>De tofste club uit merksem en omstreken!</b>
                     </h3>
