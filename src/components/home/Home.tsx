@@ -20,6 +20,12 @@ export const Home = () => {
             </Row>
             <Row>
                 <Col lg={7} sm={10}>
+                    <Announcement title={'Kampioenschap Fort van Merksem 2023!'}
+                                  body={'Vorig jaar werd het Kampioenschat van het Fort van Merksem voor het eerst georganiseerd door Koninklijke Sevos TTC. Dit jaar was het aan ons, en met een opkomst van 25 spelers we mogen het een geslaagde editie noemen!\n' +
+                                      'In zowel de kwart als de halve finales bleven Sevos en Bart Merksem aan elkaar gewaagd in elke reeks, met vooral in D-reeks enkele matchen die gevolgd werden op het puntje van onze stoel, maar de finales kleurden dit jaar helemaal blauw. In de reeks NG-F won Jean van Jonas met 3-0, in de reeks E won Wouter van Levi met 3-2, en in de reeks D won Noah van Arno met 3-1.\n' +
+                                      'Voor de organisatie van volgend jaar geven we de fakkel terug door aan Sevos, we kijken er al naar uit!\n'}
+                                  date={new Date(2023, 12, 29)}
+                    images={['../../winnaar1.jpg','../../winnaar2.jpg','../../winnaar3.jpg']}/>
                     <Announcement title={'Erkende sportclub!'}
                                   body={'Nieuwtje: vanaf juli 2023 is TTC Bart Merksem erkend als sportclub door de Stad Antwerpen! Dat wil zeggen dat we hun veiligheidsscan hebben doorlopen en hun waardeverklaringen hebben ondertekend. Op onze toog kan je nu het “erkende sportclub”-bordje zien staan.'}
                                   date={new Date(2023, 8, 31)}/>
