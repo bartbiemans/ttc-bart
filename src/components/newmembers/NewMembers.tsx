@@ -1,4 +1,3 @@
-import Image from "react-bootstrap/Image";
 import React from "react";
 import {Col, Row} from "react-bootstrap";
 

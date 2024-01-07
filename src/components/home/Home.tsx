@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "react-bootstrap/Image";
 import {Col, Row} from "react-bootstrap";
 import {Announcement} from "../announcement/Announcement";
 

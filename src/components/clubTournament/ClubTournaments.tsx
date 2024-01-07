@@ -10,7 +10,6 @@ import content2014 from "./clubTournament2014.json"
 import content2013 from "./clubTournament2013.json"
 import content2012 from "./clubTournament2012.json"
 import {TournamentTable} from "./TournamentTable";
-import Image from "react-bootstrap/Image";
 
 
 export const ClubTournament = () => {

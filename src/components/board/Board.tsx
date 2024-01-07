@@ -1,6 +1,5 @@
 import {Col, Row, Table} from "react-bootstrap"
 import React from 'react';
-import Image from "react-bootstrap/Image";
 
 export const Board = () => {
     return (

@@ -20,7 +20,7 @@ export const Announcement = (props: Props) => {
                 <p className={'mt-3'}>{props.body}{props.link && <a href={props.link}>Klik hier!</a>}</p>
                 <div>
                     {props.images?.map(image => (
-                        <img className={'announcement-image mr-2'} alt={'image'} src={image}/>
+                        <img className={'announcement-image mr-2'} alt={'announcement'} src={image}/>
                     ))}
                 </div>
             </Col>

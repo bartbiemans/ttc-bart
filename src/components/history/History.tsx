@@ -1,5 +1,4 @@
 import {Col, Row} from "react-bootstrap";
-import Image from "react-bootstrap/Image";
 import React from "react";
 
 export const History = () => {
