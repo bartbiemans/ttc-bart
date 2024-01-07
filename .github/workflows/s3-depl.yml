@@ -17,10 +17,10 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-1
       - name: Build React App
-        working-directory: ./ttc-bart
+        working-directory: .
         run: npm install && npm run build
       - name: Deploy app build to S3 bucket
-        working-directory: ./ttc-bart
+        working-directory: .
         run: aws s3 sync ./build/ s3://ttc-bart --delete
       - name: Invalidate cache
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_PRODUCTION_ID }} --paths /index.html
