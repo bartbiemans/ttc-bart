@@ -15,6 +15,7 @@ export const Teams = () => {
                         <pre><b>Ploeg E Afdeling 9B  </b> Nields Eduardo Emmanuel Jonas</pre>
                         <pre><b>Ploeg F Afdeling 11A  </b> Lieve Rudy Luc C. Ivo</pre>
                         <pre><b>Ploeg G Afdeling 11B  </b> Nathalie Jean Guy Luc D.</pre>
+                        <pre><b>Jeugd A Afdeling 6 play-offs  </b> Rinus Tristan Xander Jarno Levin</pre>
                     </div>
                 </Col>
             </Row>
