@@ -18,7 +18,7 @@ export const Training = () => {
                         </li>
                         <li>
                             We voorzien twee “trainingsblokken”, van augustus tot half december, en van januari tot
-                            einde april. Voor elk trainingsblok vragen we een beperkte bijdrage van 20€.
+                            einde april.
                         </li>
                     </ul>
                 </Col>
