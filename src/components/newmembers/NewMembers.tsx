@@ -22,7 +22,7 @@ export const NewMembers = () => {
                     <h3 className={'pt-2'}><b>Praktische info</b></h3>
                     <p>
                         Beginnende spelers kunnen een paletje van de club gebruiken.
-                        Bij aansluiting als competitielid voorzien we één gratis truitje. Voorzie ook propere
+                        Bij aansluiting als competitie of jeugdlid voorzien we één gratis truitje. Voorzie ook propere
                         sportschoenen, d.w.z. schoenen die niet gebruikt zijn om buiten te sporten. Buiten het
                         competitieseizoen kunnen al onze leden op dinsdagavond vrij komen spelen. Daarnaast spelen we
                         het hele jaar door op donderdagmiddag vanaf 13u30.
