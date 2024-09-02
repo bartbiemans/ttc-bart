@@ -1,5 +1,6 @@
 import {Col, Row} from "react-bootstrap";
 import React from "react";
+import Image from 'react-bootstrap/Image'
 
 export const Training = () => {
     return (
@@ -13,8 +14,9 @@ export const Training = () => {
                         <li>De trainingen werken op inschrijving: als je je engageert, verwachten we dat je komt,
                             uitgezonderd heirkracht of ziekte.
                         </li>
-                        <li>Trainingen gaan voor senioren door op woensdag in twee groepen, van 19u tot 20u30 en van 20u45 tot 22u15. Jeugdleden trainen op vrijdag van 18u30 tot 20u.
-                            De senioren krijgen training van Jacques Van Mirlo. De jeugd krijgt training van Thomas Jenné. Beide trainers zijn gediplomeerde initiators tafeltennis.
+                        <li>Trainingen gaan voor senioren door op woensdag, van 20u tot 21u. Jeugdleden trainen op
+                            woensdag van 18u tot 19u (beginners) en op woensdga van 19u tot 20u (gevorderden). Op
+                            vrijdag krijgen de gevorderden ook les van 18u30 tot 20u.
                         </li>
                         <li>
                             We voorzien twee “trainingsblokken”, van augustus tot half december, en van januari tot
@@ -23,6 +25,14 @@ export const Training = () => {
                     </ul>
                 </Col>
             </Row>
+            {/*<Row>*/}
+            {/*   <Col md={6} className={'d-flex justify-content-center'}>*/}
+            {/*       <Image className={'trainer-image'} src="../../winnaar1.jpg" roundedCircle={true}/>*/}
+            {/*   </Col>*/}
+            {/*    <Col md={6} className={'d-flex justify-content-center'}>*/}
+            {/*        <Image className={'trainer-image'} src="../../winnaar1.jpg" roundedCircle={true}/>*/}
+            {/*    </Col>*/}
+            {/*</Row>*/}
         </>
     )
 }

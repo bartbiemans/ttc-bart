@@ -8,14 +8,14 @@ export const Teams = () => {
             <Row className={'d-flex justify-content-center pt-2 ml-2 mr-2'}>
                 <Col lg={8} className={'text-center d-flex flex-column'}>
                     <div className={'team-text'}>
-                        <pre><b>Ploeg A Afdeling 4  </b> Vincent Bart Noah</pre>
-                        <pre><b>Ploeg B Afdeling 6  </b> Jöel Lode Jos Gert</pre>
-                        <pre><b>Ploeg C Afdeling 7  </b> Thomas Levi Filip Arno</pre>
-                        <pre><b>Ploeg D Afdeling 9A  </b> Lawrens Guido Koen Wouter</pre>
-                        <pre><b>Ploeg E Afdeling 9B  </b> Nields Eduardo Emmanuel Jonas</pre>
-                        <pre><b>Ploeg F Afdeling 11A  </b> Lieve Rudy Luc C. Ivo</pre>
-                        <pre><b>Ploeg G Afdeling 11B  </b> Nathalie Jean Guy Luc D.</pre>
-                        <pre><b>Jeugd A Afdeling 6 play-offs  </b> Rinus Tristan Xander Jarno Levin</pre>
+                        <pre><b>Ploeg A Afdeling 3  </b> Vincent Bart Noah Arno</pre>
+                        <pre><b>Ploeg B Afdeling 5A  </b> Jöel Levi Jos Gert</pre>
+                        <pre><b>Ploeg C Afdeling 5B  </b> Thomas Lode Eduardo Filip</pre>
+                        <pre><b>Ploeg D Afdeling 7A  </b> Guido Lawrens Johan Koen Wouter</pre>
+                        <pre><b>Ploeg E Afdeling 7B  </b> Glenn Emmanuel Jonas Niels</pre>
+                        <pre><b>Ploeg F Afdeling 9A  </b> Lieve Rudy Jean Nathalie</pre>
+                        <pre><b>Ploeg G Afdeling 9B  </b> Luc Guy Els</pre>
+                        <pre><b>Jeugd A Afdeling 5  </b> Rinus Trever Levin Tristan Xander</pre>
                     </div>
                 </Col>
             </Row>

@@ -34,12 +34,12 @@ export const NewMembers = () => {
                     <h3 className={'pt-2'}><b>Prijzen</b></h3>
                     <span>Lidgeld Seniors</span>
                     <ul>
-                       <li>70€</li>
+                       <li>80€</li>
                        <li>Competitie op maandag & dinsdag avond</li>
                     </ul>
                     <span>Lidgeld Jeugd</span>
                     <ul>
-                       <li>40€</li>
+                       <li>50€</li>
                        <li>Competitie op zaterdagvoormiddag</li>
                     </ul>
                     <span>Lidgeld recreant</span>

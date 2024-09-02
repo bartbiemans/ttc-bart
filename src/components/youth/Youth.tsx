@@ -10,7 +10,8 @@ export const Youth = () => {
                     <h3 className={'pt-2'}><b>Praktische regeling</b></h3>
                     <span>Onze jeugdtrainingen zijn er voor iedereen tussen 8 en 21 jaar. </span>
                     <ul>
-                        <li>We trainen op vrijdagavond van 18u tot 20u30.
+                        <li>Beginners van 6 tot ongeveer 10 jaar trainen op woensdag van 18u tot 19u.
+                            Meer gevorderde spelers trainen op woensdag van 19u tot 20u en op vrijdag van 18u30 tot 20u.
                         </li>
                         <li>Voor beginnende spelers voorzien we paletjes, je hebt enkel sportschoenen nodig.
                         </li>
