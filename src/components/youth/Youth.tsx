@@ -28,7 +28,7 @@ export const Youth = () => {
             <Row style={{height:'45vh'}}>
                 <Col md={1}></Col>
                 <Col md={10}>
-                    <iframe className={'h-100 w-100'} src="https://docs.google.com/spreadsheets/d/1-IyAMPMItzw-46ukywZt239E9A_1C39bmYRDRiYh_6g/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                    <iframe title={'sheet'} className={'h-100 w-100'} src="https://docs.google.com/spreadsheets/d/1-IyAMPMItzw-46ukywZt239E9A_1C39bmYRDRiYh_6g/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
                 </Col>
                 <Col md={1}></Col>
             </Row>
